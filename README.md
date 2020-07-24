@@ -20,5 +20,5 @@ If you use Crowd-SLAM in an academic work, please cite:
 # 2. Prerequisites
 We have tested the library in **Ubuntu 18.04**.
 
-## 3. Acknowledgements
+# 3. Acknowledgements
 Our code builds on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2).
