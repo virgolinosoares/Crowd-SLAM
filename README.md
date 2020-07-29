@@ -1,6 +1,10 @@
 # Crowd-SLAM
 
-# 1. License
+Crowd-SLAM is a visual SLAM system that is robust in crowded scenarios.
+
+
+
+# License
 
 Crowd-SLAM is released under a GPLv3 License.
 
@@ -17,8 +21,8 @@ If you use Crowd-SLAM in an academic work, please cite:
       year={2020}
      }
      
-# 2. Prerequisites
+# Prerequisites
 We have tested the library in **Ubuntu 18.04**.
 
-# 3. Acknowledgements
+# Acknowledgements
 Our code builds on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2).
