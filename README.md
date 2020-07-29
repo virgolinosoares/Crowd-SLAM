@@ -4,8 +4,8 @@ Crowd-SLAM is a visual SLAM system that is robust in crowded scenarios.
 
 <img src="images/example.png"
 width="773" height="489" /></a>
-<img src="images/MOT20-01_CYTi.jpg" 
-width="960" height="540" /></a>
+<!--img src="images/MOT20-01_CYTi.jpg" 
+width="960" height="540" /></a!-->
 
 # License
 
