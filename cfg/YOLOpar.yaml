@@ -1,0 +1,19 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# YOLO Parameters
+#--------------------------------------------------------------------------------------------
+
+# Confidence threshold
+yolo.confThreshold: 0.2
+
+# Non-maximum suppression threshold 
+yolo.nmsThreshold: 0.1
+
+# Width of network's input image 
+yolo.inpWidth: 160
+
+# Height of network's input image
+yolo.inpHeight: 160
+
+
