@@ -211,7 +211,7 @@ cv::Mat Tracking::GrabImageStereo(const cv::Mat &imRectLeft, const cv::Mat &imRe
     }
     std::chrono::steady_clock::time_point t4 = std::chrono::steady_clock::now();
     double ttrack= std::chrono::duration_cast<std::chrono::duration<double> >(t4 - t3).count();
-    cout << "time waiting for detection: " << ttrack*1000 << endl;
+    //cout << "time waiting for detection: " << ttrack*1000 << endl;
 
 	// send detected boxes to Frame
 	mCurrentFrame.SetBoxes(mpDetector->people_boxes);
@@ -224,10 +224,10 @@ cv::Mat Tracking::GrabImageStereo(const cv::Mat &imRectLeft, const cv::Mat &imRe
 	// FEATURE NUMBER UPDATE
     //------------------------------------------------------------------------------------------------
 
-	cout << "FACTOR: " << mpDetector->fig_factor << endl;
+	//cout << "FACTOR: " << mpDetector->fig_factor << endl;
 
 	nFeatures = FeatureNumberUpdate(mpDetector->aprox_area, mpDetector->fig_factor);
-	std::cout << "Feature number: " << nFeatures << std::endl;
+	//std::cout << "Feature number: " << nFeatures << std::endl;
 
 	delete mpORBextractorLeft;
 	delete mpORBextractorRight;
@@ -279,7 +279,7 @@ cv::Mat Tracking::GrabImageRGBD(const cv::Mat &imRGB,const cv::Mat &imD, const d
     }
     std::chrono::steady_clock::time_point t4 = std::chrono::steady_clock::now();
     double ttrack= std::chrono::duration_cast<std::chrono::duration<double> >(t4 - t3).count();
-    cout << "time waiting for detection: " << ttrack*1000 << endl;
+    //cout << "time waiting for detection: " << ttrack*1000 << endl;
 
 	// send detected boxes to Frame
 	mCurrentFrame.SetBoxes(mpDetector->people_boxes);
@@ -292,7 +292,7 @@ cv::Mat Tracking::GrabImageRGBD(const cv::Mat &imRGB,const cv::Mat &imD, const d
     //------------------------------------------------------------------------------------------------
 
 	nFeatures = FeatureNumberUpdate(mpDetector->aprox_area, mpDetector->fig_factor);
-	std::cout << "Feature number: " << nFeatures << std::endl;
+	//std::cout << "Feature number: " << nFeatures << std::endl;
 
 	delete mpORBextractorLeft;
 		
@@ -409,7 +409,7 @@ cv::Mat Tracking::GrabImageMonocular(const cv::Mat &im, const double &timestamp)
     //------------------------------------------------------------------------------------------------
 
 	nFeatures = FeatureNumberUpdate(mpDetector->aprox_area, mpDetector->fig_factor);
-	std::cout << "Feature number: " << nFeatures << std::endl;
+	//std::cout << "Feature number: " << nFeatures << std::endl;
 
 	if(mState==NOT_INITIALIZED || mState==NO_IMAGES_YET)
 		delete mpIniORBextractor;        
