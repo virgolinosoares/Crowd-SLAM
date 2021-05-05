@@ -13,18 +13,30 @@ Crowd-SLAM is released under a GPLv3 License.
 
 If you use Crowd-SLAM in an academic work, please cite:
 
-    @article{soaresJINT2020,
+    @article{soaresJINT2021,
       title={Crowd-{SLAM}: Visual {SLAM} Towards Crowded Environments using Object Detection},
       author={Soares, J. C. V., Gattass, M. and Meggiolaro, M. A.},
       journal={Journal of Intelligent & Robotic Systems},
-      volume={},
+      volume={in press},
       number={},
       pages={},
       doi = {},
-      year={2020}
+      year={2021}
      }
      
-# Prerequisites
+# Building Crowd-SLAM
+- Install ORB-SLAM2 prerequisites: C++11 or C++0x Compiler, Pangolin, OpenCV and Eigen3  (https://github.com/raulmur/ORB_SLAM2).
+- Clone the repository:
+```
+git clone https://github.com/virgolinosoares/Crowd-SLAM
+```
+- Execute:
+```
+cd Crowd-SLAM
+chmod +x build.sh
+./build.sh
+```
+
 We have tested the library in **Ubuntu 18.04**.
 
 # Acknowledgements
