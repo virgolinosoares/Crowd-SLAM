@@ -3,6 +3,7 @@
 Crowd-SLAM is a visual SLAM system that is robust in crowded scenarios.
 
 Demonstration video: https://www.youtube.com/watch?v=LeS8MEVaR2E
+Paper: https://link.springer.com/article/10.1007/s10846-021-01414-1
 
 <img src="images/example.png"
 width="773" height="489" /></a>
@@ -19,10 +20,9 @@ If you use Crowd-SLAM in an academic work, please cite:
       title={Crowd-{SLAM}: Visual {SLAM} Towards Crowded Environments using Object Detection},
       author={Soares, J. C. V., Gattass, M. and Meggiolaro, M. A.},
       journal={Journal of Intelligent & Robotic Systems},
-      volume={in press},
-      number={},
-      pages={},
-      doi = {},
+      volume={102},
+      number={50},
+      doi = {https://doi.org/10.1007/s10846-021-01414-1},
       year={2021}
      }
      
