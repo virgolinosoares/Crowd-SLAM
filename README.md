@@ -3,6 +3,7 @@
 Crowd-SLAM is a visual SLAM system that is robust in crowded scenarios.
 
 Demonstration video: https://www.youtube.com/watch?v=LeS8MEVaR2E
+
 Paper: https://link.springer.com/article/10.1007/s10846-021-01414-1
 
 <img src="images/example.png"
